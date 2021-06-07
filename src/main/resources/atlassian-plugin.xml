@@ -9,6 +9,10 @@
 
     <!-- add our i18n resource -->
     <resource type="i18n" name="i18n" location="openway"/>
+
+    <listener name="Comment Listener" key="commentlistener" class="ru.aleons.events.IssueCommentListener">
+        <description>Will listen for comment events.</description>
+    </listener>
     
     <!-- add our web resources -->
     <web-resource key="openway-resources" name="openway Web Resources">
